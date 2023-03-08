@@ -26,8 +26,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	//test용 h2 database
-	runtimeOnly 'com.h2database:h2'
+	implementation 'mysql:mysql-connector-java'
 	// Jasypt
 	implementation 'com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.4'
 }
